@@ -19,11 +19,15 @@ textarea {
 }
 
 body {
-    font-size: 1em;
+    font-size: 0.75em;
     line-height: 1.4;
+    color:#3a0806;
+    width: 99%;
+    margin: 0 auto;
 }
 
 /*
+
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
@@ -93,8 +97,60 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html{
+    background: url('../img/187I1586.jpg') no-repeat top left scroll;
+    background-size: 100%;
+    
+}
+h2{
+    color:#c52b2c;
+}
+a{
+    display: inline-block;
+    width: 102px;
+    border-right: 1px solid #202116;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+nav a:last-child{
+    border: 0;
+}
+a:link    { 
+    color: #dfcfb3;
+
+    
+}    /* unvisited links */
+a:visited { background: #3a0806 }   /* visited links   */
+a:hover   { background: #80a8ac} /* user hovers     */
+a:active  { background: #3a0806 }   /* active links    */
 
 
+
+h1{
+    float: left;
+    width: 60%;
+}
+
+nav{
+    background: #29271c;
+    height: 50px;
+    line-height: 50px;
+    float: right;
+    width: 30%;
+    /*margin-top: 20px;*/
+}
+h2{
+    float: right;
+    clear: both;
+    width: 30%;
+}
+.copy{
+   clear: both;
+    float: right;
+    width: 30%;
+}
 
 
 
